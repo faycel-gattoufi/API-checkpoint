@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #000618;
+}
+
+.App-header {
+  background-color: #1f3053;
+  height: 250px;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #000618;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 42px;
+  color: rgb(133, 137, 138);
+}
+h3 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 42px;
+  color: rgb(133, 137, 138);
+}
+.userslist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profil-card {
+  border-radius: 2px;
+  width: 800px;
+  display: flex;
+  margin: 10px;
+  background: #61667e;
+}
+.profil-img {
+  margin-right: 50px;
+  padding: 10px;
+}
+.profil-img img {
+  border-radius: 50%;
+}
+.adress span {
+  margin-right: 7px;
+}
+h2 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #bb201a;
+  font-size: 35px;
+}
+span,
+.description {
+  color: #0a0a0a;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.title {
+  color: #c0e752;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 17px;
+}
+.contact {
+  padding-bottom: 10px;
+}
